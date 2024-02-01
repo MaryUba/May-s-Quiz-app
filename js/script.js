@@ -2,7 +2,8 @@
 const start_btn = document.querySelector(".start_btn button");
 const info_box = document.querySelector(".info_box");
 const exit_btn = document.querySelector(".buttons .quit");
-const continue_btn = document.querySelector(".buttons .restart");
+const continue_btn = info_box.querySelector(".buttons .restart");
+const quiz_box = document.querySelector(".quiz_box")
 
 // if start button is clicked
     start_btn.onclick = ()=>{
@@ -18,5 +19,5 @@ exit_btn.onclick = ()=>{
 // if continue buttton is clicked
 continue_btn.onclick = ()=>{
     info_box.classList.remove("activeInfo"); //hide info box
-    info_box.classList.remove("activeInfo"); //hide info box
+    quiz_box.classList.add("activeQuiz"); //Show quiz box
 }
