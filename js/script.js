@@ -20,14 +20,19 @@ exit_btn.onclick = ()=>{
 continue_btn.onclick = ()=>{
     info_box.classList.remove("activeInfo"); //hide info box
     quiz_box.classList.add("activeQuiz"); //Show quiz box
-    showQuestions();
+    showQuestions(0);
 }
 
 let que_count = 0;
 
 // getting questions 
-function showQuestions(){
+function showQuestions(index){
     const que_text = document.querySelector(".que_text");
-    let que_tag = '<span>'+ questions[1].question +'</span>';
+    const option_list = document.querySelector(".option_list");
+    let que_tag = '<span>'+ questions[index].question +'</span>';
+    let option_tag = '<div class="option"><span></span></div>'
+                     + '<div class="option"><span></span></div>'
+                     + '<div class="option"><span></span></div>'
+                     + '<div class="option"><span></span></div>'; 
     que_text.innerHTML = que_tag;
 }
