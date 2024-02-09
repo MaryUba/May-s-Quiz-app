@@ -51,7 +51,7 @@ let questions = [
         options: [
             "  // Comment ",
             "/* Comment */",
-            "<!-- Comment -->",
+            "<-- Comment -->",
             "Both a and b"
         ]
     },
@@ -220,5 +220,345 @@ let questions = [
             "It sorts the array based on a provided condition"
         ]
     },
+    {
+        numb: 21,
+        question: "How do you convert a string to lowercase in JavaScript?",
+        answer: "string.toLowerCase()",
+        options: [
+            "toLowerCase()",
+            "string.lowerCase()",
+            "convertToLowerCase()",
+            "strToLower()"
+        ]
+    },
+    {
+        numb: 22,
+        question: "What does the 'find()' method do in JavaScript?",
+        answer: "Finds the first element in an array that satisfies a condition",
+        options: [
+            "Finds the index of an element in an array",
+            "Finds the maximum value in an array",
+            "Finds the minimum value in an array",
+            "Finds the first element in an array that satisfies a condition"
+        ]
+    },
+    {
+        numb: 23,
+        question: "Which method is used to join two or more arrays in JavaScript?",
+        answer: "concat()",
+        options: [
+            "merge()",
+            "concatenate()",
+       "joinArrays()",
+       "concat()"
+        ]
+      },
+      {
+        numb: 24,
+        question: "What is the purpose of the `typeof` operator in JavaScript?",
+        answer: "To determine the data type of a variable",
+        options: [
+            "To check if a variable is defined",
+       "To determine the data type of a variable",
+       "To convert a variable to a string",
+       "To check if a variable is null"
+        ]
+      },
+      {
+        numb: 25,
+        question: "What is the output of console.log(2 + '2')?",
+        answer: "22",
+        options: [
+            "4",
+            "22",
+            "22",
+            "NaN"
+        ]
+      },
+      {
+        numb: 26,
+        question: "How do you declare a constant variable in JavaScript?",
+        answer: "const x = 10",
+        options: [
+            "const x = 10;",
+            "let x = 10;",
+            "var x = 10;",
+            "constant x = 10;"
+        ]
+      },
+      {
+        numb: 27,
+        question: "What does the 'shift()' method do in JavaScript?",
+        answer: "Removes the first element from an array and returns that removed element",
+        options: [
+            "Adds elements to the beginning of an array",
+            "Removes elements from the beginning of an array",
+            "Removes the first element from an array and returns that removed element",
+            "Removes the last element from an array and returns that removed element"
+        ]
+    },
+    {
+        numb: 28,
+        question: "What does the 'pop()' method do in JavaScript?",
+        answer: "Removes the last element from an array and returns that removed element",
+        options: [
+            "Adds elements to the end of an array",
+            "Removes elements from the beginning of an array",
+            "Removes the first element from an array and returns that removed element",
+            "Removes the last element from an array and returns that removed element"
+        ]
+    },
+    {
+        numb: 29,
+        question: "How do you convert a string to lowercase in JavaScript?",
+        answer: "string.toLowerCase()",
+        options: [
+            "toLowerCase()",
+            "string.lowerCase()",
+            "convertToLowerCase()",
+            "strToLower()"
+        ]
+    },
+    {
+        numb: 30,
+        question: "What does the 'find()' method do in JavaScript?",
+        answer: "Finds the first element in an array that satisfies a condition",
+        options: [
+            "Finds the index of an element in an array",
+            "Finds the maximum value in an array",
+            "Finds the minimum value in an array",
+            "Finds the first element in an array that satisfies a condition"
+        ]
+    },
+    {
+        numb: 31,
+        question: "What is the purpose of the 'filter()' method in JavaScript?",
+        answer: "Creates a new array by filtering out elements based on a condition",
+        options: [
+            "Modifies the original array",
+            "Creates a new array by filtering out elements based on a condition",
+            "Adds elements to an array",
+            "Sorts the elements of an array"
+        ]
+    },
+    {
+        numb: 32,
+        question: "Which method is used to convert a string to an array in JavaScript?",
+        answer: "split()",
+        options: [
+            "toArray()",
+            "split()",
+            "stringToArray()",
+            "join()",
+            "array()"
+        ]
+    },
+    {
+        numb: 33,
+        question: "What does the 'reduce()' method do in JavaScript?",
+        answer: "Combines all elements in an array into a single value",
+        options: [
+            "Sums up all elements in an array",
+            "Multiplies all elements in an array",
+            "Applies a function to each element in the array",
+            "Combines all elements in an array into a single value"
+        ]
+    },
+    {
+        numb: 34,
+        question: "How do you convert a string to a number in JavaScript?",
+        answer: "parseInt()",
+        options: [
+            "parseInt()",
+            "convertToNumber()",
+            "toNumber()",
+            "numberFromString()",
+            "castToNumber()"
+        ]
+    },
+    {
+        numb: 35,
+        question: "What is the purpose of the 'reverse()' method in JavaScript?",
+        answer: "Modifies the original array to reverse its elements",
+        options: [
+            "Creates a new array with reversed elements",
+            "Sorts the elements of an array",
+            "Modifies the original array to reverse its elements",
+            "Removes elements from an array"
+        ]
+    },
+    {
+        numb: 36,
+        question: "How do you access the length of an array in JavaScript?",
+        answer: "array.length",
+        options: [
+            "array.len()",
+            "array.size()",
+            "array.length()",
+            "array.length",
+            "array.length"
+        ]
+    },
+    {
+        numb: 37,
+        question: "What is the purpose of the 'Object.keys()method in JavaScript?",
+        answer: "Returns an array of a given object's own enumerable property names",
+        options: [
+            "Adds keys to an object",
+            "Removes keys from an object",
+            "Returns an array of a given object's own enumerable property names",
+            "Returns an array of values from an object"
+        ]
+    },
+    {
+        numb: 38,
+        question: "What does the 'includes()' method do in JavaScript?",
+        answer: "Checks if an array includes a certain element",
+        options: [
+            "Adds elements to an array",
+            "Removes elements from an array",
+            "Sorts the elements of an array",
+            "Checks if an array includes a certain element"
+        ]
+    },
+    {
+        numb: 39,
+        question: "How do you convert a number to a string in JavaScript?",
+        answer: "toString()",
+        options: [
+            "convertToString()",
+            "toString()",
+            "toStr()",
+            "stringify()",
+            "numberToString()"
+        ]
+    },
+    {
+        numb: 40,
+        question: "What does the 'slice()' method do in JavaScript?",
+        answer: "Extracts a section of an array and returns a new array",
+        options: [
+            "Adds elements to an array",
+            "Removes elements from an array",
+            "Joins two or more arrays",
+            "Extracts a section of an array and returns a new array"
+        ]
+    },
+    {
+        numb: 41,
+        question: "What does the 'splice()' method do in JavaScript?",
+        answer: "Removes elements from an array and/or adds new elements",
+        options: [
+            "Adds elements to an array",
+            "Removes elements from an array and/or adds new elements",
+            "Slices a portion of an array into a new array",
+            "Sorts the elements of an array"
+        ]
+    },
+    {
+        numb: 42,
+        question: "What does the 'sort()' method do in JavaScript?",
+        answer: "Sorts the elements of an array",
+        options: [
+            "Adds elements to an array",
+            "Removes elements from an array",
+            "Sorts the elements of an array",
+            "Reverses the order of elements in an array"
+        ]
+    },
+    {
+        numb: 43,
+        question: "What is the purpose of the 'join()' method in JavaScript?",
+        answer: "Joins elements of an array into a string",
+        options: [
+            "Splits a string into an array of substrings",
+            "Joins elements of an array into a string",
+            "Slices a portion of an array into a new array",
+            "Sorts the elements of an array"
+        ]
+    },
+    {
+        numb: 44,
+        question: "What is the purpose of the 'concat()' method in JavaScript?",
+        answer: "Joins two or more arrays",
+        options: [
+            "Splits a string into an array of substrings",
+            "Joins two or more arrays",
+            "Joins elements of an array into a string",
+            "Sorts the elements of an array"
+        ]
+    },
+    {
+        numb: 45,
+        question: "How do you create a new object in JavaScript?",
+        answer: "new Object()",
+        options: [
+            "{}",
+            "objectInstance()",
+            "newObject()",
+            "objectInstance()",
+            "new()"
+        ]
+    },
+    {
+        numb: 46,
+        question: "What does the 'toFixed()' method do in JavaScript?",
+        answer: "Rounds a number to a specified number of decimal places",
+        options: [
+            "Trims leading and trailing whitespace from a string",
+            "Converts a number to a string",
+            "Rounds a number to a specified number of decimal places",
+            "Returns the length of a string"
+        ]
+    },
+    {
+        numb: 47,
+        question: "What is the purpose of the 'substring()' method in JavaScript?",
+        answer: "Extracts the characters from a string, between two specified indices",
+        options: [
+            "Splits a string into an array of substrings",
+            "Joins two or more strings",
+            "Extracts the characters from a string, between two specified indices",
+            "Returns the character at a specified index in a string"
+        ]
+    },
+    {
+        numb: 48,
+        question: "What does the 'indexOf()' method return when the element is not found in an array?",
+        answer: "-1",
+        options: [
+            "-1",
+            "0",
+            "null",
+            "NaN",
+            "undefined"
+        ]
+    },
+    {
+        numb: 49,
+        question: "How do you create a JavaScript object?",
+        answer: "{}",
+        options: [
+            "{}",
+            "new Object()",
+            "object()",
+            "createObject()",
+            "makeObject()"
+        ]
+    },
+    {
+        numb: 50,
+        question: "What is the purpose of the 'push()' method in JavaScript?",
+        answer: "Adds elements to the end of an array",
+        options: [
+            "Adds elements to the beginning of an array",
+            "Adds elements to the end of an array",
+            "Removes elements from the beginning of an array",
+            "Removes elements from the end of an array"
+        ]
+    },
+      
+
+
 
 ];
